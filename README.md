@@ -22,8 +22,7 @@ where:
 - $J$ is the loss function
 
 ## Results
-
-No adversarial examples at $\epsilon = 0$
+### Model accuracy
 
 | Epsilon | Accuracy |
 |---|---:|
@@ -35,7 +34,9 @@ No adversarial examples at $\epsilon = 0$
 | 0.25 | 1.95% |
 | 0.30 | 1.04% |
 
-### Adversarial Examples at different $\epsilon$ values
+Note: Clean accuracy of the model at $\epsilon = 0$
+
+### Adversarial examples at different $\epsilon$ values
 <img src="images/adversarial_examples.png" alt="Adversarial examples" width="500">
 
 ## Conclusion
