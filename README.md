@@ -35,6 +35,9 @@ No adversarial examples at $\epsilon = 0$
 | 0.25 | 1.95% |
 | 0.30 | 1.04% |
 
+### Adversarial Examples at different $\epsilon$ values
+<img src="images/adversarial_examples.png" alt="Adversarial examples" width="500">
+
 ## Conclusion
 
 The model performs very well on clean MNIST data, but accuracy drops sharply under FGSM attacks as epsilon increases. This demonstrates that high standard accuracy does not imply adversarial robustness. Also there is a tradeoff between the effectiveness of an adversarial attack and how easily the pertubations are percievable by a human.
