@@ -1,6 +1,6 @@
 # Adversarial Examples on MNIST
 
-This project explores how a neural network for MNIST digit classification can be fooled by adversarial examples generated with FGSM.
+This repository explores how a neural network for MNIST digit classification can be fooled by adversarial examples generated with FGSM.
 
 ## What are adversarial examples?
 
